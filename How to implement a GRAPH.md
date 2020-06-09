@@ -44,29 +44,29 @@ It can be divided into two parts, commonly used and not to much used, the choice
 - Incidence list
 
 _#TIP_
-* Set vs List
+Set vs List
 * Both things are the same, belogs to the same interfaces. Therefore, the methods are the same, but the implementation of the methods are different, because:
 - Set : set of elements. C# : `HashSet<T>()`
 	* Doesn’t accept duplicated elements.
 - List : set of elements. C# : `ArrayList<T>()`
 	* Accept duplicated elements.
 
-* LinkedList vs Array
+LinkedList vs Array
 - Linked List : is a collection of Nodes, that’s a type that has two fields, one for data storage and one for a link, it’s a reference to the next node.
 	* To figure out the previous or next node: “sucessors” and “predecessors”.
 	* First element it’s commonly implements as “Header”. Last element appoints to null.
 	* The elements are referenced by a relationship with the predecessor element. ex.: Bread “follows” Milk.
 - Array : it’s a collections objects.
 	* The elements are referenced by a index (the position that this element are storege in the list). ex.: Bread is in the 2th position and Milk is in the 3th position.
-** Main Difference
+> Main Difference
 The main difference between linked list and array, is deleting or inserting an element. Because, in the linked list don’t have to realocate all the elements in the list, It’s just need to set the  link (reference) of my previous element to the new node and then do the same thing to the next link.
 In case of array, that will need realocate all elements to put the new element, depends on the 
 index that wants to insert. To deleting it's the same thing, deleting an element in an array, the index still there but empty, so it’s necessary realocate all  elements. Isn’t perfomatic.
 
-* Sparse vs Dense
+Sparse vs Dense
 - Sparse: means the graph contains a less number of edges.
 - Dense:
 
-* Deleting
+Deleting
 - Deleting an edge it’s differente than deleting a vertice, even that node appoints to a another node, isn’t means that this “appoints to” is an edge,  because edge is a connection, and node is the data that will be connected.
 _#End TIP_

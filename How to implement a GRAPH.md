@@ -28,16 +28,16 @@ It can be divided into two parts, commonly used and not to much used, the choice
 	* ex.: `adjacencyMatrix[currentNode][nodeToGo] = 1`, so “1” indicates that has an connection between the currentNode from nodeToGo.
 	* Valorated graph. ex.: `adjacencyMatrix[currentNode][nodeToGo] = weight`, the “weight” is the cost of the currentNode take to get to the nodeToGo.
 	- Complexity:
-	O(1): deleting/adding an edge or search if exists an edge connection. ex.: `if matrix[currentNode][nodeToGo] == 1`, then have a connection.
-	O(V): 
-	O(V²): adding a new node and memory (memory is defined by V*V, so if it’s dense or sparse the graph will occupy the same space in both cases).
+		O(1): deleting/adding an edge or search if exists an edge connection. ex.: `if matrix[currentNode][nodeToGo] == 1`, then have a connection.  
+		O(V):  
+		O(V²): adding a new node and memory (memory is defined by V*V, so if it’s dense or sparse the graph will occupy the same space in both cases).
 
 - Adjacency list: it’s an array of lists, where the size is equal to the numbers of vertices, and the entry in the array[nPosition] is a list that contains all the vertices that have a adjacency connection to the vertex nPosition. ex.: `array[nPosition] = [node1, node2, node5]`.
 	* Valorated graph: it’s almost the same implementation, with the difference that instead of a list, it’s a list pair list, so the array [nPostion] receves [(node, weight)], but depends on the implemention that you are using for it. ex.: `array[nPosition] = [(node1, 15), (node2, 96), (node5, 47)]`.
 	- Complexity:
-	O(V+E): space in memory, but this complexity changes if the array being dense O(V²) or sparse O(V), because the space ocuppied in memory is iterated over the number of connections. Where “E” is equal to the numbers of edges.
-	O(n): adding a new vertex, but if is dense it’s gonna be O(V), in case of a sparse graph that changes to O(1). Where “n” is the numbers of the new neighbors nodes added.
-	O(V): to search if exists an edge connection between u and v node.
+		O(V+E): space in memory, but this complexity changes if the array being dense O(V²) or sparse O(V), because the space ocuppied in memory is iterated over the number of connections. Where “E” is equal to the numbers of edges.  
+		O(n): adding a new vertex, but if is dense it’s gonna be O(V), in case of a sparse graph that changes to O(1). Where “n” is the numbers of the new neighbors nodes added.  
+		O(V): to search if exists an edge connection between u and v node.
 
 > Not much commonly:
 - Incidence matrix

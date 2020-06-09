@@ -44,8 +44,8 @@ It can be divided into two parts, commonly used and not to much used, the choice
 - Incidence list
 
 _#TIP_  
-Set vs List
-* Both things are the same, belogs to the same interfaces. Therefore, the methods are the same, but the implementation of the methods are different, because:
+Set vs List  
+Both things are the same, belongs to the same interfaces. Therefore, the methods are the same, but the implementation of the methods are different, because:
 - Set : set of elements. C# : `HashSet<T>()`
 	* Doesn’t accept duplicated elements.
 - List : set of elements. C# : `ArrayList<T>()`

@@ -43,7 +43,7 @@ It can be divided into two parts, commonly used and not to much used, the choice
 - Incidence matrix
 - Incidence list
 
-_#TIP_
+_#TIP_  
 Set vs List
 * Both things are the same, belogs to the same interfaces. Therefore, the methods are the same, but the implementation of the methods are different, because:
 - Set : set of elements. C# : `HashSet<T>()`
@@ -57,7 +57,7 @@ LinkedList vs Array
 	* First element it’s commonly implements as “Header”. Last element appoints to null.
 	* The elements are referenced by a relationship with the predecessor element. ex.: Bread “follows” Milk.
 - Array : it’s a collections objects.
-	* The elements are referenced by a index (the position that this element are storege in the list). ex.: Bread is in the 2th position and Milk is in the 3th position.
+	* The elements are referenced by a index (the position that this element are storege in the list). ex.: Bread is in the 2th position and Milk is in the 3th position.  
 > Main Difference
 The main difference between linked list and array, is deleting or inserting an element. Because, in the linked list don’t have to realocate all the elements in the list, It’s just need to set the  link (reference) of my previous element to the new node and then do the same thing to the next link.
 In case of array, that will need realocate all elements to put the new element, depends on the 
@@ -68,5 +68,5 @@ Sparse vs Dense
 - Dense:
 
 Deleting
-- Deleting an edge it’s differente than deleting a vertice, even that node appoints to a another node, isn’t means that this “appoints to” is an edge,  because edge is a connection, and node is the data that will be connected.
+- Deleting an edge it’s differente than deleting a vertice, even that node appoints to a another node, isn’t means that this “appoints to” is an edge,  because edge is a connection, and node is the data that will be connected.  
 _#End TIP_

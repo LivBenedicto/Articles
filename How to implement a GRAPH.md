@@ -20,7 +20,7 @@ Is a finite non-linear data structure, that is compose by nodes (circles, - vert
 	* d-graph
 	* Because currentNode can have one or more connections with any nodeToGo in the graph.
 
-**>> Representation of a graph:**
+**>> Representation of a graph:**  
 It can be divided into two parts, commonly used and not to much used, the choice will totally depends on the situation you need to resolve.
 
 > Commonly:
@@ -69,4 +69,5 @@ Sparse vs Dense
 
 Deleting
 - Deleting an edge it’s differente than deleting a vertice, even that node appoints to a another node, isn’t means that this “appoints to” is an edge,  because edge is a connection, and node is the data that will be connected.  
+
 _#End TIP_

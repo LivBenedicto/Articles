@@ -20,14 +20,14 @@ A way to color adjacent vertices in a different color.
     - 3-chromatic : Cn and Wn, with odd n, and Petersen Graph.
     - 4-chromatic : wheel graph with a even vertex.
 
-> Petersen Graph
-    - Undirected graph with 10 vertices and 15 edges.
-    - Chromatic number : 3
+> Petersen Graph  
+    - Undirected graph with 10 vertices and 15 edges.  
+    - Chromatic number : 3  
     - Chromatic index : 4
 
-> Four Color Theorem
-    - Proposed in 1852 and resolved in 1976 by K. Appele W. Haken.
-    - A chromatic number in a planar graph isn't greater than 4.
+> Four Color Theorem  
+    - Proposed in 1852 and resolved in 1976 by K. Appele W. Haken.  
+    - A chromatic number in a planar graph isn't greater than 4.  
 
 * Coloring of circuits
     - Circuit composed by n >= 3 vertices.
@@ -35,7 +35,6 @@ A way to color adjacent vertices in a different color.
         * 3-chromatic : odd n.
     - Simple graph G, with least one edge.
         * 2-chromatic if G don't contain an odd circuit.
-
 
 **>> Solution steps:**
 - #1 step : Find out which is the **highest** adjacent vertex and color it with any color.  
@@ -45,13 +44,14 @@ A way to color adjacent vertices in a different color.
 - #3 step : The #1 step is repeated until all vertices are colored.  
 
 _#TIP_  
-Only for simple connected graph G = (V,E).  
-- Don't consider a disconnect graph : the colors used in one component don't affect another component.  
-- Parallel edges don't affect the coloration.  
-- Graph cannot contain loops.  
+Only for simple connected graph Graph = (Vertices,Edges).  
+    - Don't consider a disconnect graph : the colors used in one component don't affect another component.  
+    - Parallel edges don't affect the coloration.  
+    - Graph cannot contain loops.  
 
 Bipartite  
-- Represent as λ(Kn,m) = n.  
+    - Represent as λ(Kn,m) = n.  
+
 _#End TIP_  
 
 **#SOURCE**  

@@ -52,6 +52,12 @@ Only for simple connected graph Graph = (Vertices,Edges).
 Bipartite  
     - Represent as λ(Kn,m) = n.  
 
+Used to solve practical problems
+    - Scheduling problems in management science
+    - Allocating transmission frequencies to tv and radio stations.
+    - Study of Cell Phone traffic.
+    - Coloring maps
+        * Where doesn't have two regions that share a boundary with the same color.  
 _#End TIP_  
 
 **#SOURCE**  

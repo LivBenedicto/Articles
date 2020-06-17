@@ -1,7 +1,7 @@
 ### GRAPH Coloring
 
-Problem :  
-> "Assign colors to certain elements of a graph subject to certain constrains". - Geeks for Geeks  
+> Problem :  
+    "Assign colors to certain elements of a graph subject to certain constrains". - Geeks for Geeks  
 
 **>> Coloring in a graph context:**
 A way to color adjacent vertices in a different color.
@@ -52,11 +52,11 @@ Only for simple connected graph Graph = (Vertices,Edges).
 Bipartite  
     - Represent as λ(Kn,m) = n.  
 
-Used to solve practical problems
-    - Scheduling problems in management science
-    - Allocating transmission frequencies to tv and radio stations.
-    - Study of Cell Phone traffic.
-    - Coloring maps
+Used to solve practical problems  
+    - Scheduling problems in management science  
+    - Allocating transmission frequencies to tv and radio stations.  
+    - Study of Cell Phone traffic.  
+    - Coloring maps  
         * Where doesn't have two regions that share a boundary with the same color.  
 _#End TIP_  
 
